@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+	
+
+//check the given word id palindrome or not!!!!!!
+function isPalindrome() {
+var palindrome = prompt("Enter a word to check palindrome");
+   const word = [...palindrome.toLowerCase()];
+   for (let char of word) {
+      if (char !== word.pop())
+       {
+	document.write("The word you type is not a Palindrome " + " " + palindrome);
+
+        return false}
+   }
+   	document.write("The word you type is Palindrome, congulations!! " + " " + palindrome);
+   return true
+}
+isPalindrome();
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html># es6-javascript
