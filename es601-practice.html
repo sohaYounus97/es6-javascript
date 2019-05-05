@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+ <script>
+ //TypeOf Operators
+ document.write("<h2>TypeOf Operators</h2>");
+
+ //string
+ let word = "Sohayounus";
+ document.write(typeof word + "<br>");
+
+ //number
+  let num = 03242094542;
+ document.write(typeof num + "<br>");
+ 
+ //boolean
+  let bollenn = true;
+ document.write(typeof bollenn + "<br>");
+
+ //object
+  let book={
+  name:"book01",
+  price: 45,
+  id: 012
+  }
+ document.write(typeof book + "<br>");
+
+
+ //Conditional Operators
+ document.write("<h2>Conditional Operators</h2>");
+ 
+ //test? true : false
+ var numb = prompt("enter a number");
+ let result = numb > 10 ? true : false ;
+ document.write(numb + ":" + result);
+
+ //Decision making
+ document.write("<h2>Decision making: If else</h2>");
+ let number = prompt("enter a number to check wether it is even or odd");
+ if(number % 2==0){
+ 	 document.write("even");
+ } else{
+  document.write("odd");
+ }
+ 
+
+ </script>
+
+</body>
+</html>
